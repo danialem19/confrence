@@ -2,21 +2,27 @@ import com.pluralsight.repository.HibernateSpeakerRepostiroyImpl;
 import com.pluralsight.repository.SpeakerRepostiroy;
 import com.pluralsight.service.SpeakerService;
 import com.pluralsight.service.SpeakerServiceImpl;
+import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Scope;
 
 @Configuration
+@ComponentScan({"com.pluralsight"})
 public class AppConfig {
 
-    @Bean(name = "speakerService")
-    public SpeakerService getSpeakerService(){
-        SpeakerServiceImpl service = new SpeakerServiceImpl(getSpeakerRepository());
-       // service.setRepository(getSpeakerRepository());
-        return service;
-    }
-
-    @Bean(name = "speakerRepository")
-    public SpeakerRepostiroy getSpeakerRepository(){
-        return new HibernateSpeakerRepostiroyImpl();
-    }
+//    @Bean(name = "speakerService")
+//    @Scope(value = BeanDefinition.SCOPE_SINGLETON)
+//    public SpeakerService getSpeakerService(){
+//        //SpeakerServiceImpl service = new SpeakerServiceImpl(getSpeakerRepository());
+//        SpeakerServiceImpl  service = new SpeakerServiceImpl();
+//       // service.setRepository(getSpeakerRepository());
+//        return service;
+//    }
+//
+//    @Bean(name = "speakerRepository")
+//    public SpeakerRepostiroy getSpeakerRepository(){
+//        return new HibernateSpeakerRepostiroyImpl();
+//    }
 }
