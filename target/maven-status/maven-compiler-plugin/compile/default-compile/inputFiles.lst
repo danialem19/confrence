@@ -1,8 +1,0 @@
-/Users/tsi/Documents/Spring-Boot/spring-fundamentals/conference/src/main/java/com/pluralsight/conference/controllers/SpeakersController.java
-/Users/tsi/Documents/Spring-Boot/spring-fundamentals/conference/src/main/java/com/pluralsight/conference/controllers/SessionsController.java
-/Users/tsi/Documents/Spring-Boot/spring-fundamentals/conference/src/main/java/com/pluralsight/conference/controllers/HomeController.java
-/Users/tsi/Documents/Spring-Boot/spring-fundamentals/conference/src/main/java/com/pluralsight/conference/models/Speaker.java
-/Users/tsi/Documents/Spring-Boot/spring-fundamentals/conference/src/main/java/com/pluralsight/conference/models/Session.java
-/Users/tsi/Documents/Spring-Boot/spring-fundamentals/conference/src/main/java/com/pluralsight/conference/ConferenceDemoApplication.java
-/Users/tsi/Documents/Spring-Boot/spring-fundamentals/conference/src/main/java/com/pluralsight/conference/repositoies/SpeakerRepository.java
-/Users/tsi/Documents/Spring-Boot/spring-fundamentals/conference/src/main/java/com/pluralsight/conference/repositoies/SessionRepository.java

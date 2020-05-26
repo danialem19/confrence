@@ -1,8 +1,0 @@
-com/pluralsight/conference/controllers/SpeakersController.class
-com/pluralsight/conference/ConferenceDemoApplication.class
-com/pluralsight/conference/models/Session.class
-com/pluralsight/conference/controllers/SessionsController.class
-com/pluralsight/conference/repositoies/SessionRepository.class
-com/pluralsight/conference/models/Speaker.class
-com/pluralsight/conference/repositoies/SpeakerRepository.class
-com/pluralsight/conference/controllers/HomeController.class
